@@ -1,0 +1,6 @@
+secret_id: xxxxx
+secret_key: xxxxx
+cert_path: /etc/letsencrypt/live/www.iots.vip/fullchain.pem
+key_path: /etc/letsencrypt/live/www.iots.vip/privkey.pem
+domains:
+  - www.iots.vip
