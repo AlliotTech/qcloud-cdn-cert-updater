@@ -7,5 +7,5 @@
 vim /etc/letsencrypt/renewal-hooks/deploy/qcloud-cdn-cert-updater.sh
 ``` shell 
 #!/bin/bash
-/etc/certbot/cdn/cdn-cert-updater -f /etc/certbot/cdn/config.yml  2>&1
+/etc/certbot/cdn/qcloud-cdn-cert-updater -f /etc/certbot/cdn/config.yml  2>&1
 ```
